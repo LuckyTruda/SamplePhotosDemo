@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1497A81E20D92D4C008E8493 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1497A81D20D92D4C008E8493 /* README.md */; };
 		14AB939E20D7412D00AA232B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AB939D20D7412D00AA232B /* AppDelegate.m */; };
 		14AB93A620D7412E00AA232B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14AB93A520D7412E00AA232B /* Assets.xcassets */; };
 		14AB93A920D7412E00AA232B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14AB93A720D7412E00AA232B /* LaunchScreen.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1497A81D20D92D4C008E8493 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		14AB939920D7412D00AA232B /* SamplePhotosDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SamplePhotosDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14AB939C20D7412D00AA232B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		14AB939D20D7412D00AA232B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				14AB93A720D7412E00AA232B /* LaunchScreen.storyboard */,
 				14AB93AA20D7412E00AA232B /* Info.plist */,
 				14AB93AB20D7412E00AA232B /* main.m */,
+				1497A81D20D92D4C008E8493 /* README.md */,
 			);
 			path = SamplePhotosDemo;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1497A81E20D92D4C008E8493 /* README.md in Resources */,
 				14AB93A920D7412E00AA232B /* LaunchScreen.storyboard in Resources */,
 				14AB93A620D7412E00AA232B /* Assets.xcassets in Resources */,
 			);
