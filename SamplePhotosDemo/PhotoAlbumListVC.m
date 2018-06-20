@@ -65,12 +65,6 @@ static NSString * const CellID = @"CellID";
     //_userCollections = [PHCollectionList fetchTopLevelUserCollectionsWithOptions:nil];
 }
 
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-    self.clearsSelectionOnViewWillAppear = YES;
-}
-
 #pragma mark - Table view data source
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 3;
