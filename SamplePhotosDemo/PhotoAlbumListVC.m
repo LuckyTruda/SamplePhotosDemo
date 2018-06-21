@@ -57,10 +57,13 @@ static NSString * const CellID = @"CellID";
 - (void)fetchAssetCollection
 {
     PHFetchOptions *allPhotosOptions = [[PHFetchOptions alloc] init];
+    // 按创建时间升序
     allPhotosOptions.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:@"creationDate" ascending:YES]];
-    
+    // 获取所有照片（按创建时间升序）
     _allPhotos = [PHAsset fetchAssetsWithOptions:allPhotosOptions];
+    // 获取所有智能相册
     _smartAlbums = [PHAssetCollection fetchAssetCollectionsWithType:PHAssetCollectionTypeSmartAlbum subtype:PHAssetCollectionSubtypeAlbumRegular options:nil];
+    // 获取所有用户创建相册
     _userCollections = [PHAssetCollection fetchAssetCollectionsWithType:PHAssetCollectionTypeAlbum subtype:PHAssetCollectionSubtypeSmartAlbumUserLibrary options:nil];
     //_userCollections = [PHCollectionList fetchTopLevelUserCollectionsWithOptions:nil];
 }
